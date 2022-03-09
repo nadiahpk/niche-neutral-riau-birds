@@ -1,0 +1,2 @@
+"subset_name","observed_c_score","actual_sample_size","effective_sample_size","mean_c_score","lower_tail_p","upper_tail_p","p_type","standardised_effect_size"
+"survey_only",1.27677419354839,101,101,1.34232309453469,0.386138613861386,0.613861386138614,"==",-0.241665463929476

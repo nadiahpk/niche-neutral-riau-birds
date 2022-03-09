@@ -1,0 +1,4 @@
+sample_ID,no_spp_S,no_isles_H,K,theta,T_0,T_1,T_2,T_3,T_4,J_0,J_1,J_2,J_3,J_4,m_0,m_1,m_2,m_3,m_4,no_spp_niche_0,no_spp_niche_1,no_spp_niche_2,no_spp_niche_3,no_spp_niche_4,presence_absence_matrix_cols_(isles)_concatenated
+1,28,5,5,8,inf,inf,6,6,10,100.0,100.0,100.0,100.0,100.0,0.0001,0.0001,0.0001,0.0001,0.0001,6,2,8,5,7,paaaaapapaaaaaaapaaaapaaaaaaapaaaapaapaaaaaapaaaaapaaaaappaaaappapppaaaaapppaaapppaapapppappaaaappppaapappaaappappaaapppaappaapaaapaappaaapp
+2,20,5,5,8,inf,inf,6,6,10,100.0,100.0,100.0,100.0,100.0,0.0001,0.0001,0.0001,0.0001,0.0001,4,4,2,5,5,paaapaaapapaaaapaaaaapaaapaaapapaaaapaaapppaappappappaaappaappaaappppapappppappapaapapaapaaappappaap
+3,22,5,5,8,inf,inf,6,6,10,100.0,100.0,100.0,100.0,100.0,0.0001,0.0001,0.0001,0.0001,0.0001,4,3,5,6,4,paaapaapaaaapaaaaapaaapaaaapaapaaaapaaaaapaapppappaapppapappaapppapapppapapppppaappppaappaappaaaapappaapaapppp

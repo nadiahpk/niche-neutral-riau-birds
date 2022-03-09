@@ -1,0 +1,2 @@
+example_1.py
+    Niches and multiple islands only, no splitting from mainland

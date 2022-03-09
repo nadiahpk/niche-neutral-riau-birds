@@ -1,0 +1,27 @@
+baseline.py
+    Created a baseline scenario from which other scenarios are a variation
+    Created to look similar to survey data (but not exactly the same)
+
+increasing_m.py
+    Uses results/neutral_area_vs_m/baseline.csv
+    Finds the m value that would satisfy each baseline species richness given that J is fixed at the J_critical value (all islands same size)
+    Written to results/neutral_area_vs_m/increasing_m.csv
+
+decreasing_m.py
+    Uses results/neutral_area_vs_m/baseline.csv
+    Finds the m value that would keep the species richness fixed at 25 on each island (J as baseline)
+
+create_parameter_3.py
+    Creates a set of parameter values based on varying J x m across the range of values find above (3 x 5 = 15 total)
+    They are named things like 'J1_m1', 'J3_m2'
+    Stored in results/neutral_area_vs_m/parameter_3_Jm.csv
+
+create_archipelago_params_3.py
+    Uses results/neutral_area_vs_m/parameter_3_Jm.csv from create_parameter_3.py to make a more convenient parameter-values collection
+
+create_samples.py
+    Uses results/neutral_area_vs_m/archipelago_params_3.csv
+    For the parameter sets above (e.g., 'J3_m2'), create 30 archipelagos using the species generator
+    Stored in results/neutral_area_vs_m/samples_3.csv
+    
+The samples are then used by scripts in ../cooccurrence_neutral_area_vs_m
