@@ -15,11 +15,11 @@ from my_functions import draw_sample_species_generator_general, calculate_D, dra
 
 # which parameter set and archipelagos to sample
 
-# suffix = '_3'
-# archipelago_IDs = [1, 8, 9, 10]
+suffix = '_3'
+archipelago_IDs = [1, 8, 9, 10]
 
-suffix = '_4'
-archipelago_IDs = [1]
+# suffix = '_4'
+# archipelago_IDs = [1]
 
 # where is the file storing parameter values and where to save results
 dir_results = '../../results/neutral_vary_K/'

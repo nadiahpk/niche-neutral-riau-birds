@@ -86,7 +86,7 @@ def draw_J_general(island2niches, JV, H, K):
 
     return(J)
 
-def draw_sample_species_generator_general(thetakV, mV, J, D):
+def draw_sample_species_generator_general(thetakV, mV, J, D=None):
     '''
     Draw a sample using my species generator.
 
@@ -102,7 +102,7 @@ def draw_sample_species_generator_general(thetakV, mV, J, D):
     J, list of list of floats
         J[k][h] the number of individuals in niche k on island h
 
-    D, list of lists of integers
+    D, list of lists of integers (optional)
         D[k][h] The number of founding individuals in each niche k (rows) on each island h (cols).
         e.g., created by calculate_D()
 
@@ -118,6 +118,9 @@ def draw_sample_species_generator_general(thetakV, mV, J, D):
         A zero or the absence of the index indicates that the species with that index was not present in this niche on this island.
 
     '''
+
+    if D is None:
+        D = [ [ 1 for jj in j ] for j in J ]
 
     # secondary parameters
     K = len(J)          # number of niches
@@ -352,7 +355,7 @@ def calculate_D(mV, TV, J):
 
 # create a sample using my species generator
 # this function is a simple one that assumes the number of niches on each island is constant
-def draw_sample_species_generator(theta, mV, J, D):
+def draw_sample_species_generator(theta, mV, J, D=None):
     '''
     Draw a sample using my species generator.
     Simpler version that assumes all islands have the same number of niches.
@@ -370,7 +373,7 @@ def draw_sample_species_generator(theta, mV, J, D):
     J, list of list of floats
         J[k][h] the number of individuals in each niche k on each island h
 
-    D, list of lists of integers
+    D, list of lists of integers (optional)
         D[k][h] The number of founding individuals in each niche k (rows) on each island h (cols).
         e.g., created by calculate_D()
 
@@ -385,6 +388,9 @@ def draw_sample_species_generator(theta, mV, J, D):
         community[k][h][species_ID] The abundace in each niche k on each island h of each species (idx).
         A zero or the absence of the index indicates that the species with that index was not present in this niche on this island.
     '''
+
+    if D is None:
+        D = [ [ 1 for jj in j ] for j in J ]
 
 
     # secondary parameters
