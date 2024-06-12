@@ -16,7 +16,7 @@ plot_infos = [
             'simdata_fname': '../../results/cooccurrence_neutral_data/sim9_c_score.csv',
             'obsdata_fname': '../../results/cooccurrence_data/sim9_c_score.csv',
             'xlabel': 'SES C-score',
-            'plot_fname': '../../results/cooccurrence_neutral_data/sim9_c_score_survey_only.pdf' 
+            'plot_fname': '../../results/cooccurrence_neutral_data/sim9_c_score_survey_only.pdf',
             },
         { 
             'sim_subset': [('subset_name', 'survey_only')], 
@@ -159,24 +159,39 @@ for plot_info in plot_infos:
     exp_min_rnd = (int(exp_min / 0.5)-1)*.5
     exp_max_rnd = (int(exp_max / 0.5)+1)*.5
 
+    '''
     # create bins
     bin_min = min([def_min, exp_min_rnd])
     bin_max = max([def_max, exp_max_rnd])
     bins = np.arange( bin_min, bin_max, 0.2 ) # NOTE bin size here
+    '''
 
     # plot the values within and outside the sample range separately
-    plt.hist(SES_all, color='blue',   edgecolor='blue',    alpha=0.7, bins=bins, label='niche-neutral model')
+    # plt.hist(SES_all, color='blue',   edgecolor='blue',    alpha=0.7, bins=bins, label='niche-neutral model')
+    plt.hist(SES_all, color='blue',   edgecolor='blue',    alpha=0.7, label='niche-neutral model')
 
+    '''
     # show the 95%-ile for a normal distribution and the 0
     ninety_five = 1.96
     plt.axvline(ninety_five, ls='dotted', color='black', alpha=0.7)
     plt.axvline(-ninety_five, ls='dotted', color='black', alpha=0.7)
     plt.axvline(0, ls='dotted', color='black', alpha=0.7)
+    '''
 
     # show where the observed value was
     if SES_obs:
         plt.axvline(SES_obs, color='red', label='observed')
 
+    # explain which direction means what
+    if plot_info["xlabel"] == "SES C-score":
+        plt.text(0, -0.1, "$\longleftarrow$ aggregated", fontsize="large", transform=plt.gca().transAxes)
+        plt.text(1, -0.1, "segregated $\longrightarrow$", ha="right", fontsize="large", transform=plt.gca().transAxes)
+    if plot_info["xlabel"] == "SES NODF":
+        plt.text(0, -0.1, "$\longleftarrow$ anti-nested", fontsize="large", transform=plt.gca().transAxes)
+        plt.text(1, -0.1, "nested $\longrightarrow$", ha="right", fontsize="large", transform=plt.gca().transAxes)
+
+
+    # decorate and save
     plt.xlabel(plot_info['xlabel'], fontsize='xx-large')
     plt.ylabel('frequency', fontsize='xx-large')
     plt.legend(loc='best', fontsize='large')

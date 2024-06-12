@@ -57,6 +57,7 @@ SES_out = df_out['standardised_effect_size'].values
 # plot a histogram of SES
 # ---
 
+'''
 # default min and max range for the SES
 def_min = -2.5; def_max = 2.5
 
@@ -71,16 +72,18 @@ exp_max_rnd = (int(exp_max / 0.5)+1)*.5
 bin_min = min([def_min, exp_min_rnd])
 bin_max = max([def_max, exp_max_rnd])
 bins = np.arange( bin_min, bin_max, 0.1 ) # steps of 0.1
+'''
 
 # plot the values within and outside the sample range separately
-plt.hist(SES_win, color='blue',   edgecolor='blue',    alpha=0.7, bins=bins, label='neutral model')
-plt.hist(SES_out, color='orange', edgecolor='orange',  alpha=0.7, bins=bins, label='neutral model outliers')
+plt.hist(SES_all, color='blue',   edgecolor='blue',    alpha=0.7, label='niche-neutral model')
 
+'''
 # show the 95%-ile for a normal distribution and the 0
 ninety_five = 1.96
 plt.axvline(ninety_five, ls='dotted', color='black', alpha=0.7)
 plt.axvline(-ninety_five, ls='dotted', color='black', alpha=0.7)
 plt.axvline(0, ls='dotted', color='black', alpha=0.7)
+'''
 
 # show where the observed value was
 plt.axvline(SES_obs, color='red', label='observed')

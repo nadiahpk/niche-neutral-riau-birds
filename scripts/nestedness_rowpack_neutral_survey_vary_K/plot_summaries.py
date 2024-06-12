@@ -35,7 +35,7 @@ df_out = pd.DataFrame(KV, columns=['K'])
 data_raw = [ K2df[K]['observed_NODF'].values for K in KV ]
 plt.boxplot(data_raw)
 plt.xticks(range(1,len(KV)+1), KV)
-plt.xlabel(r'number of niches, $K$', fontsize='xx-large')
+plt.xlabel(r'number of niches', fontsize='xx-large')
 plt.ylabel(r'raw nestedness score, NODF', fontsize='xx-large')
 plt.tight_layout()
 plt.savefig(dir_results + 'summary_rawscore.pdf')
@@ -53,7 +53,7 @@ df_out['SE_observed_NODF'] = [ sem(v) for v in data_raw ]
 data_ses = [ K2df[K]['standardised_effect_size'].values for K in KV ]
 plt.boxplot(data_ses)
 plt.xticks(range(1,len(KV)+1), KV)
-plt.xlabel(r'number of niches, $K$')
+plt.xlabel(r'number of niches')
 plt.ylabel(r'SES NODF')
 plt.tight_layout()
 plt.savefig(dir_results + 'summary_SES.pdf')

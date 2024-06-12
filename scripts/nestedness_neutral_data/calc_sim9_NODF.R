@@ -1,4 +1,4 @@
-# Compare the observed C-scores to randomised (using fixed-fixed) matrices 
+# Compare the observed NODF to randomised (using fixed-fixed) matrices 
 
 library(coda)
 library(EcoSimR)

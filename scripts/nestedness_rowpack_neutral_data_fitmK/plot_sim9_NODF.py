@@ -10,7 +10,8 @@ import numpy as np
 
 # which data subset to use
 subset = 'survey_only'
-suffix = '_4'
+# suffix = '_4'
+suffix = '_3'
 
 # where the simulated data is and also where to save this plot
 dir_simulated = '../../results/nestedness_rowpack_neutral_data_fitmK/'

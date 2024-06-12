@@ -8,8 +8,8 @@ library(EcoSimR)
 # ---
 
 # which data shall we do
-# subset_name <- 'survey_only'
-subset_name <- 'peninsula_only'
+subset_name <- 'survey_only'
+# subset_name <- 'peninsula_only'
 
 # where to find the burnt-in matrix, the data c-score, and put the results
 dir_results <- '../../results/cooccurrence_data/'

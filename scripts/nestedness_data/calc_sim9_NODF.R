@@ -9,8 +9,8 @@ library(EcoSimR) # sim9_single
 # ---
 
 # which data shall we do
-# subset_name <- 'survey_only'
-subset_name <- 'peninsula_only'
+subset_name <- 'survey_only'
+# subset_name <- 'peninsula_only'
 
 # where to find the burnt-in matrix
 dir_burn <- '../../results/cooccurrence_data/'
@@ -123,7 +123,6 @@ if (obs_NODF > max(NODFs)) {
 
 # standardised effect size
 ses <- (obs_NODF - mean(NODFs))/sd(NODFs)
-
 
 # store results
 # ---

@@ -2,6 +2,7 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 #import sys
 #sys.path.insert(0,'../../functions')
@@ -38,6 +39,9 @@ richness_real = len(df_real.index) # count rows, which are species
 fname = dir_results + 'samples_' + subset_name + '_rho' + str(rho)  + '.csv'
 df = pd.read_csv(fname)
 richness_samples = df['S'].values
+
+# print mean, percentiles to screen
+print(f"mean is {np.mean(richness_samples)} with 95-percentile range {np.percentile(richness_samples, [2.5, 97.5])}")
 
 
 # plot a histogram and where the real data is in that

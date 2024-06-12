@@ -1,35 +1,35 @@
-file_name,subset,measure,mean,standard_error,note_to_self
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_1.csv,,observed_NODF,88.58343675011871,0.22148847521687243,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_3.csv,,observed_NODF,88.1566854609563,0.18871010425293383,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_5.csv,,observed_NODF,87.11181192445615,0.2631698055601575,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_7.csv,,observed_NODF,83.75458352740854,0.25964156648252196,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_1.csv,,standardised_effect_size,-1.4882357266767803,0.22492796076136715,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_3.csv,,standardised_effect_size,-1.3397020197438232,0.1941733707958804,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_5.csv,,standardised_effect_size,-1.2210043021844315,0.2207257386630804,how nestedness changes with K
-../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_7.csv,,standardised_effect_size,-1.0809515912168979,0.18483144165798254,how nestedness changes with K
-../../results/cooccurrence_neutral_data/sim9_c_score.csv,subset_name=survey_only,observed_c_score,1.1868736780661968,0.023148523342580905,first fit raw c_score
-../../results/nestedness_rowpack_neutral_data/sim9_NODF.csv,subset_name=survey_only,observed_NODF,82.52145243085278,0.11509153866557502,first fit raw NODF
-../../results/cooccurrence_neutral_data/sim9_c_score.csv,subset_name=survey_only,standardised_effect_size,-0.47617755974972126,0.07920527534992847,first fit SES c-score
-../../results/nestedness_rowpack_neutral_data/sim9_NODF.csv,subset_name=survey_only,standardised_effect_size,-0.9319808447872129,0.15230539186531913,first fit SES NODF
-../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=1,observed_c_score,2.090451488104748,0.03817343313795671,baseline vary K effect on C-score
-../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=1,standardised_effect_size,-0.5061923490927548,0.08169675121723836,baseline vary K effect on C-score
-../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=9,observed_c_score,1.3065444199211391,0.031858885328794315,scenario 9 increase segregation
-../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=9,standardised_effect_size,2.93648953925356,0.1207684680629603,scenario 9 increase segregation
-../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=1,observed_NODF,75.5875018903821,0.6288577085422931,baseline scenario 1
-../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=1,standardised_effect_size,-1.3233475904207195,0.2612969811849879,baseline scenario 1
-../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=9,observed_NODF,74.30739866393638,0.538234556477534,scenario 9
-../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=9,standardised_effect_size,-3.4005313078842523,0.281156520622435,scenario 9
-../../results/cooccurrence_neutral_vary_JK/sim9_c_score.csv,suffix=_2,observed_c_score,3.774137391793494,0.07151596300895802,inland niches increase segregation
-../../results/cooccurrence_neutral_vary_JK/sim9_c_score.csv,suffix=_2,standardised_effect_size,2.2514613641727403,0.14242274848921332,inland niches increase segregation
-../../results/nestedness_rowpack_neutral_vary_JK/sim9_NODF.csv,suffix=_2,observed_NODF,64.02653863660674,0.6038793059232337,inland niches increase
-../../results/nestedness_rowpack_neutral_vary_JK/sim9_NODF.csv,suffix=_2,standardised_effect_size,-1.6820449354167522,0.250386626139189,inland niches increase
-../../results/cooccurrence_neutral_jump_migration/sim9_c_score.csv,archipelago_ID=1,observed_c_score,0.5072265159629219,0.028961507840704042,jump in migration doesnt affect co-occurence like jump in K
-../../results/cooccurrence_neutral_jump_migration/sim9_c_score.csv,archipelago_ID=1,standardised_effect_size,0.2690244966662604,0.18551058910489626,jump in migration doesnt affect co-occurence like jump in K
-../../results/nestedness_rowpack_neutral_data_fitm/sim9_NODF.csv,subset_name=survey_only,observed_NODF,70.16940074761584,0.330288319245775,fitting m so richness isnt strictly increasing greatly reduces raw nestedness
-../../results/nestedness_rowpack_neutral_data_fitm/sim9_NODF.csv,subset_name=survey_only,standardised_effect_size,-1.5658883615500279,0.14124297832880706,fitting m so richness isnt strictly increasing is anti-nested
-../../results/cooccurrence_neutral_data_fitm/sim9_c_score.csv,subset_name=survey_only,observed_c_score,0.8182999574348351,0.029803804702102962,fitting m so richness isnt strictly increasing not much effect on c-score
-../../results/cooccurrence_neutral_data_fitm/sim9_c_score.csv,subset_name=survey_only,standardised_effect_size,-0.7531009916162413,0.11079494688724363,fitting m so richness isnt strictly increasing not much effect on c-score
-../../results/cooccurrence_neutral_data_fitmK/sim9_c_score.csv,suffix=_3,observed_c_score,1.6442112503860873,0.0207099755982678,contrived on c-score
-../../results/cooccurrence_neutral_data_fitmK/sim9_c_score.csv,suffix=_3,standardised_effect_size,6.163268587972066,0.13281618047853727,contrived on c-score
-../../results/nestedness_rowpack_neutral_data_fitmK/sim9_NODF.csv,suffix=_3,observed_NODF,60.31962532218768,0.27520980864957295,contrived on NODF
-../../results/nestedness_rowpack_neutral_data_fitmK/sim9_NODF.csv,suffix=_3,standardised_effect_size,-4.3894112657322815,0.16304061371711467,contrived on NODF
+file_name,subset,measure,observed,mean,standard_error,95_pc_lo,95_pc_hi,lower_tail_p,upper_tail_p,p_type,note_to_self
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_1.csv,,observed_NODF,,88.58343675011871,0.2214884752168725,85.06739306727364,91.45057671802884,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_3.csv,,observed_NODF,,88.1566854609563,0.188710104252934,84.73747023280222,90.48078462313701,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_5.csv,,observed_NODF,,87.11181192445616,0.26316980556015745,81.64600146950299,90.08695277305699,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_7.csv,,observed_NODF,,83.75458352740856,0.2596415664825219,78.58357101554381,86.58405008575488,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_1.csv,,standardised_effect_size,,-1.48823572667678,0.22492796076136717,-5.289696936153376,0.912882375861974,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_3.csv,,standardised_effect_size,,-1.3397020197438232,0.1941733707958804,-4.972320336705076,0.604000972532693,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_5.csv,,standardised_effect_size,,-1.2210043021844315,0.2207257386630804,-5.688421821225806,0.958820809115467,,,,how nestedness changes with K
+../../results/nestedness_rowpack_neutral_survey_vary_K/sim9_NODF_1_K_7.csv,,standardised_effect_size,,-1.0809515912168979,0.18483144165798254,-4.184249357834728,0.9938745586609529,,,,how nestedness changes with K
+../../results/cooccurrence_neutral_data/sim9_c_score.csv,subset_name=survey_only,observed_c_score,1.27677419354839,1.1868736780661968,0.023148523342580905,0.8353909632034634,1.8106886599687242,0.67,0.33,==,first fit raw c_score
+../../results/nestedness_rowpack_neutral_data/sim9_NODF.csv,subset_name=survey_only,observed_NODF,57.2289604690398,82.52145243085275,0.11509153866557491,80.24511226203602,84.24085351410065,0.01,0.99,<,first fit raw NODF
+../../results/cooccurrence_neutral_data/sim9_c_score.csv,subset_name=survey_only,standardised_effect_size,6.59836784467027,-0.4761775597497213,0.07920527534992847,-1.7576548159740946,1.4037603706572603,0.99,0.01,>,first fit SES c-score
+../../results/nestedness_rowpack_neutral_data/sim9_NODF.csv,subset_name=survey_only,standardised_effect_size,-2.66297932939016,-0.9319808447872129,0.15230539186531913,-4.235435103950934,0.9766493313077701,0.13,0.87,==,first fit SES NODF
+../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=1,observed_c_score,,2.090451488104748,0.0381734331379567,1.3398051123283332,2.802631749560062,,,,baseline vary K effect on C-score
+../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=1,standardised_effect_size,,-0.5061923490927548,0.08169675121723836,-1.83694588950357,1.8804147257641342,,,,baseline vary K effect on C-score
+../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=9,observed_c_score,,1.3065444199211391,0.031858885328794315,0.7974414686973562,1.9429788506681092,,,,scenario 9 increase segregation
+../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv,archipelago_ID=9,standardised_effect_size,,2.93648953925356,0.1207684680629603,1.277627598452869,5.964593114714831,,,,scenario 9 increase segregation
+../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=1,observed_NODF,,75.5875018903821,0.6288577085422931,69.46379797859198,81.41908380173639,,,,baseline scenario 1
+../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=1,standardised_effect_size,,-1.3233475904207195,0.2612969811849879,-3.7315058673781363,0.730020715259204,,,,baseline scenario 1
+../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=9,observed_NODF,,74.30739866393638,0.5382345564775346,69.86582128272364,78.42444790455235,,,,scenario 9
+../../results/nestedness_rowpack_neutral_vary_K/sim9_NODF_3.csv,archipelago_ID=9,standardised_effect_size,,-3.4005313078842523,0.281156520622435,-5.984780758413982,-0.49864292199585847,,,,scenario 9
+../../results/cooccurrence_neutral_vary_JK/sim9_c_score.csv,suffix=_2,observed_c_score,,3.7741373917934937,0.07151596300895802,2.506825951825954,5.185871381110584,,,,inland niches increase segregation
+../../results/cooccurrence_neutral_vary_JK/sim9_c_score.csv,suffix=_2,standardised_effect_size,,2.2514613641727403,0.14242274848921332,-0.14972165924320033,4.879150688962608,,,,inland niches increase segregation
+../../results/nestedness_rowpack_neutral_vary_JK/sim9_NODF.csv,suffix=_2,observed_NODF,,64.02653863660674,0.6038793059232336,58.28746369573625,69.72984800714987,,,,inland niches increase
+../../results/nestedness_rowpack_neutral_vary_JK/sim9_NODF.csv,suffix=_2,standardised_effect_size,,-1.6820449354167522,0.250386626139189,-3.8367921450307905,0.9004043324329563,,,,inland niches increase
+../../results/cooccurrence_neutral_jump_migration/sim9_c_score.csv,archipelago_ID=1,observed_c_score,,0.5072265159629219,0.02896150784070404,0.2625571504518876,0.7883798391151331,,,,jump in migration doesnt affect co-occurence like jump in K
+../../results/cooccurrence_neutral_jump_migration/sim9_c_score.csv,archipelago_ID=1,standardised_effect_size,,0.2690244966662604,0.18551058910489626,-1.5752917965461861,2.139436560007465,,,,jump in migration doesnt affect co-occurence like jump in K
+../../results/nestedness_rowpack_neutral_data_fitm/sim9_NODF.csv,subset_name=survey_only,observed_NODF,57.2289604690398,70.16940074761584,0.33028831924577506,63.31060443603918,76.20225326523936,0.01,0.99,<,fitting m so richness isnt strictly increasing greatly reduces raw nestedness
+../../results/nestedness_rowpack_neutral_data_fitm/sim9_NODF.csv,subset_name=survey_only,standardised_effect_size,-2.66297932939016,-1.565888361550028,0.14124297832880706,-4.445226341648611,0.6533369407832458,0.19,0.81,==,fitting m so richness isnt strictly increasing is anti-nested
+../../results/cooccurrence_neutral_data_fitm/sim9_c_score.csv,subset_name=survey_only,observed_c_score,1.27677419354839,0.8182999574348351,0.02980380470210296,0.49761081001238455,1.1819109358164348,0.975,0.025,>,fitting m so richness isnt strictly increasing not much effect on c-score
+../../results/cooccurrence_neutral_data_fitm/sim9_c_score.csv,subset_name=survey_only,standardised_effect_size,6.59836784467027,-0.7531009916162413,0.11079494688724363,-1.74403468182615,0.6597387264516479,0.975,0.025,>,fitting m so richness isnt strictly increasing not much effect on c-score
+../../results/cooccurrence_neutral_data_fitmK/sim9_c_score.csv,suffix=_3,observed_c_score,1.27677419354839,1.6442112503860873,0.020709975598267802,1.2845757808674507,2.069770177702341,0.03,0.97,==,contrived on c-score
+../../results/cooccurrence_neutral_data_fitmK/sim9_c_score.csv,suffix=_3,standardised_effect_size,6.59836784467027,6.163268587972066,0.13281618047853727,4.022075127786896,8.798394338301167,0.63,0.37,==,contrived on c-score
+../../results/nestedness_rowpack_neutral_data_fitmK/sim9_NODF.csv,suffix=_3,observed_NODF,57.2289604690398,60.31962532218768,0.27520980864957284,55.43231538637037,65.47920125427548,0.13,0.87,==,contrived on NODF
+../../results/nestedness_rowpack_neutral_data_fitmK/sim9_NODF.csv,suffix=_3,standardised_effect_size,-2.66297932939016,-4.389411265732282,0.1630406137171147,-7.775568399188833,-1.4881189312381053,0.87,0.13,==,contrived on NODF

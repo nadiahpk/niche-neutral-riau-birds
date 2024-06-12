@@ -146,6 +146,14 @@ for plot_info in plot_infos:
     # show where the observed value was
     plt.axvline(raw_obs, color='red', label='observed')
 
+    # explain which direction means what
+    if plot_info["xlabel"] == "raw C-score":
+        plt.text(0, -0.1, "$\longleftarrow$ aggregated", fontsize="large", transform=plt.gca().transAxes)
+        plt.text(1, -0.1, "segregated $\longrightarrow$", ha="right", fontsize="large", transform=plt.gca().transAxes)
+    if plot_info["xlabel"] == "raw NODF":
+        plt.text(0, -0.1, "$\longleftarrow$ anti-nested", fontsize="large", transform=plt.gca().transAxes)
+        plt.text(1, -0.1, "nested $\longrightarrow$", ha="right", fontsize="large", transform=plt.gca().transAxes)
+
     xlim = plot_info['xlim']
     if xlim:
         plt.xlim(xlim)

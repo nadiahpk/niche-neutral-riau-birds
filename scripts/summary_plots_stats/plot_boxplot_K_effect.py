@@ -28,13 +28,13 @@ scenarios = [
             },
         # scenario 9
         {
-            'xtick': '(1) larger islands\nhave additional\nniches',
+            'xtick': '(1) additional niches',
             'fname': '../../results/cooccurrence_neutral_vary_K/sim9_c_score_3.csv',
             'subset': [('archipelago_ID', 9)],
             },
         # nested niches scenario 2
         {
-            'xtick': '(2) inland niche area\ngrows faster\nwith island size',
+            'xtick': '(2) inland niche larger',
             'fname': '../../results/cooccurrence_neutral_vary_JK/sim9_c_score.csv',
             'subset': [('suffix', '_2')],
             },
@@ -65,7 +65,7 @@ for scenario in scenarios:
 
 plt.boxplot(data_raws)
 plt.xticks(range(1,len(xticks)+1), xticks)
-plt.xlabel(r'scenario')
+plt.xlabel(r'effect on larger islands')
 plt.ylabel(r'raw ' + ylabel)
 plt.tight_layout()
 plt.savefig(raw_plot_fname)
@@ -97,7 +97,7 @@ for scenario in scenarios:
 plt.boxplot(data_sess)
 plt.axhline(0, ls='dotted', color='black')
 plt.xticks(range(1,len(xticks)+1), xticks)
-plt.xlabel(r'scenario', fontsize='xx-large')
+plt.xlabel(r'effect on larger islands', fontsize='x-large')
 plt.ylabel(r'SES ' + ylabel, fontsize='xx-large')
 plt.tight_layout()
 plt.savefig(ses_plot_fname)
