@@ -1,8 +1,4 @@
-# Niche-neutral sequential sampling scheme, nestedness and species segregation
-
-## About the code
-
-coming soon
+# Sequential sampling algorithm for analysing species occurrence patterns
 
 ## About the manuscript
 
@@ -10,25 +6,23 @@ A novel sequential sampling algorithm for the application of mechanistic models 
 
 Nadiah Pardede Kristensen; Yong Chee Keita Sin;  Hyee Shynn Lim;  Frank E. Rheindt;  Ryan A. Chisholm
 
-**Abstract**
-
-*Aim*: Species occurrence patterns are typically analysed using data-randomisation approaches,
+**Aim**: Species occurrence patterns are typically analysed using data-randomisation approaches,
 which reveal when observed patterns deviate from random expectation, but give little insight why.
 Mechanistic models such as neutral models could provide an alternative null model but they are computationally expensive.
 Here, we develop an efficient method to simulate such models and use it to identify likely mechanisms
 governing the occurrence patterns of birds on islands.
 
-*Location*: Riau archipelago, Indonesia.
+**Location**: Riau archipelago, Indonesia.
 
-*Taxon*: Birds.
+**Taxon**: Birds.
 
-*Methods*:
+**Methods**:
 We used species richness and island area data to fit a niche-neutral model,
 where species obey neutral dynamics within non-overlapping discrete niches.
 We developed a sequential sampling algorithm to efficiently generate randomised presence--absence matrices under the model,
 compared its predictions, and used mismatches to identify which mechanisms were potentially important to occurrence patterns.
 
-*Results*:
+**Results**:
 Birds were more segregated and less nested than expected compared to both data randomisation and the niche-neutral model.
 The niche-neutral model reproduced the mean relationship between island size and species richness,
 but it could not produce sufficient variability to account for the richness data.
@@ -36,7 +30,7 @@ Allowing niche diversity to vary across islands increased segregation;
 and allowing the per-capita immigration rate to vary across islands decreased nestedness,
 bringing the model into closer agreement with the data.
 
-*Main conclusion*:
+**Main conclusion**:
 While the species-area relationship could be explained by a model with constant
 per-capita immigration rates and number of niches across islands,
 higher-order nestedness and co-occurrence patterns required inter-island heterogeneity.
