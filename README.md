@@ -2,40 +2,21 @@
 
 ## About the manuscript
 
-A novel sequential sampling algorithm for the application of mechanistic models to species occurrence patterns
+**Using a sequential sampling algorithm to apply the niche-neutral model to species occurrence patterns**
 
 Nadiah Pardede Kristensen; Yong Chee Keita Sin;  Hyee Shynn Lim;  Frank E. Rheindt;  Ryan A. Chisholm
 
-**Aim**: Species occurrence patterns are typically analysed using data-randomisation approaches,
-which reveal when observed patterns deviate from random expectation, but give little insight why.
-Mechanistic models such as neutral models could provide an alternative null model but they are computationally expensive.
-Here, we develop an efficient method to simulate such models and use it to identify likely mechanisms
-governing the occurrence patterns of birds on islands.
+**Aim:** Species occurrence patterns are typically analysed using data-randomisation approaches, which reveal when observed patterns deviate from random expectation, but give little insight why. When non-randomness is detected, the analysis reaches a dead end. Mechanistic models, such as neutral models, offer an alternative: when their predictions fail to match data, the specific nature of each mismatch can implicate candidate mechanisms, turning null-model rejection into a diagnostic process. However, mechanistic models can be computationally expensive. Here, we use an efficient method to simulate such models and explore possible mechanisms governing the occurrence patterns of birds on islands.
 
-**Location**: Riau archipelago, Indonesia.
+**Location:** Riau archipelago, Indonesia.  
 
-**Taxon**: Birds.
+**Taxon:** Birds.
 
-**Methods**:
-We used species richness and island area data to fit a niche-neutral model,
-where species obey neutral dynamics within non-overlapping discrete niches.
-We developed a sequential sampling algorithm to efficiently generate randomised presence--absence matrices under the model,
-compared its predictions, and used mismatches to identify which mechanisms were potentially important to occurrence patterns.
+**Methods:** We used species richness and island--area data to fit a niche--neutral model, where species obey neutral dynamics within non-overlapping discrete niches. We used a sequential sampling algorithm that can efficiently sample presence--absence matrices under the niche-neutral model, and used mismatches to identify which mechanisms were potentially important to occurrence patterns. In particular, we compared model to observed data using standardised effect sizes on segregation (C-score) and nestedness (NODF) metrics.
 
-**Results**:
-Birds were more segregated and less nested than expected compared to both data randomisation and the niche-neutral model.
-The niche-neutral model reproduced the mean relationship between island size and species richness,
-but it could not produce sufficient variability to account for the richness data.
-Allowing niche diversity to vary across islands increased segregation;
-and allowing the per-capita immigration rate to vary across islands decreased nestedness,
-bringing the model into closer agreement with the data.
+**Results:** Birds were more segregated and less nested than expected from both data randomisation and the niche--neutral model. Further, while the niche--neutral model reproduced the mean relationship between island size and species richness, it could not produce sufficient variability to account for richness variation across islands. However, while the niche--neutral model was rejected as a null, it was possible to reproduce the species-occurrence patterns by allowing niche diversity and per-capita immigration rate to vary across islands, which increased segregation and decreased nestedness, respectively.
 
-**Main conclusion**:
-While the species-area relationship could be explained by a model with constant
-per-capita immigration rates and number of niches across islands,
-higher-order nestedness and co-occurrence patterns required inter-island heterogeneity.
-Our novel sequential sampling algorithm allowed us to explore different scenarios efficiently,
-and our approach may be useful for identifying the mechanisms structuring occurrence patterns in other systems.
+**Main conclusion:** While the species-area relationship could be explained by a model with constant per-capita immigration rates and number of niches across islands, inter-island heterogeneity was needed to explain species-occurrence patterns. Unlike data randomisation, which would have identified the patterns as non-random but offered no further insight, the mechanistic approach identified habitat diversity and immigration-rate variation as candidate mechanisms, demonstrating the diagnostic value of using niche–neutral models as an exploratory framework. The sequential sampling algorithm allowed us to explore different scenarios efficiently and may be useful for identifying potential mechanisms structuring patterns in other systems.
 
 ## Tutorials
 
