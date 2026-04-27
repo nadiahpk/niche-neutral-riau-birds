@@ -1,5 +1,7 @@
 # Sequential sampling algorithm for analysing species occurrence patterns
 
+[![DOI](https://zenodo.org/badge/467834224.svg)](https://doi.org/10.5281/zenodo.19810402)
+
 ## About the manuscript
 
 **Using a sequential sampling algorithm to apply the niche-neutral model to species occurrence patterns**
